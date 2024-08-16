@@ -1,0 +1,9 @@
+.background-image {background-image: url(/img/background/index-background.jpg);
+width: 1200px;
+height: 485px;}
+.newsletter {background-image: url(/img/background/background.jpg);
+    width: 800px;
+    height: 224px;}
+.background-image-catalog {background-image: url(/img/background/catalog-background\.jpg);
+    min-width: 1200px;
+    min-height: 408px;}
