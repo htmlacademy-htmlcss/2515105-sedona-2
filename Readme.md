@@ -2,7 +2,7 @@
 
 * Студент: [Zoia G](https://up.htmlacademy.ru/htmlcss-individual/2/user/2515105).
 * Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
-
+* Сайт: [Мой проект Седона](https://zuzz001zu.github.io/2515105-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
