@@ -179,6 +179,10 @@
   color: #333333;
 }
 
+.advantages-text-edge {
+  color: rgba(255, 255, 255, 1);
+}
+
 .sorting-container {
   color: #000000;
   background-color: #ffffff;
