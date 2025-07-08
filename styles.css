@@ -139,6 +139,7 @@
 }
 
 .button-search-hotel {
+  font-family: inherit;
   font-size: 20px;
   line-height: 36px;
   text-decoration: none;
@@ -314,7 +315,7 @@
 }
 
 .copyright {
-  background-color: #ffffff;
+  color: #000000;
 }
 
 .page-footer {
