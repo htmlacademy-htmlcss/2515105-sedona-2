@@ -19,7 +19,7 @@ html {
 }
 
 .body {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -29,14 +29,7 @@ html {
   line-height: 21px;
   color: #000000;
   background-color: #f2f2f2;
-}
-.page-container {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   width: 1200px;
-  min-height: 100vh;
-  background-color: #ffffff;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -80,23 +73,32 @@ html {
 
 .navigation {
   display: flex;
-  width: 1060px;
+  margin-bottom: -6px;
+  flex-wrap: wrap;
   margin-left: 70px;
   margin-right: 70px;
 }
 
+.navigation-item {
+  display: block;
+}
+
 .navigation-list {
+  display: flex;
   margin: 0;
   padding: 0;
-  width: 340px;
-  display: flex;
+  width: 500px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  list-style-type: none;
 }
 
 .navigation-user {
-  max-width: 270px;
-  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 340px;
+  margin: 0 0 0 auto;
+  padding: 0;
+  justify-content: end;
 }
 
 .navigation-link {
@@ -104,14 +106,26 @@ html {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
-  text-align: center;
   text-decoration: none;
   color: #000000;
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 16px;
+  padding-bottom: 20px;
+  padding-left: 16px;
 }
 
 .logo-header {
-  margin-right: 30px;
-  width: 138px;
+  display: block;
+  max-width: 140px;
+  z-index: 1;
+}
+
+.button-navigation-favorite {
+  margin-top: 15px;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .main-container {
@@ -136,6 +150,7 @@ html {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .product-card-title {
@@ -193,6 +208,7 @@ html {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  padding: 8px 35px;
 }
 
 .subscribe-button {
@@ -244,6 +260,7 @@ html {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .advantages-item {
@@ -311,6 +328,13 @@ html {
   margin: 0;
 }
 
+.found-hotels {
+  min-width: 1200px;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
 .hero {
   background-image: url("../img/background/index-background.jpg");
   width: 1200px;
@@ -336,6 +360,7 @@ html {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .service-item {
@@ -393,6 +418,18 @@ html {
   font-weight: 700;
 }
 
+.breadcrumbs {
+  display: flex;
+  width: 115px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.breadcrumbs-item {
+  margin: 0;
+  padding: 0;
+}
+
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
@@ -407,6 +444,7 @@ html {
 .selection-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .selection-name {
@@ -450,6 +488,7 @@ html {
   display: flex;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .pagination-link {
@@ -486,6 +525,7 @@ html {
   width: 145px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .footer-address {
