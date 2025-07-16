@@ -37,6 +37,8 @@ html {
   color: #000000;
   background-color: #ffffff;
   flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-inner {
@@ -48,6 +50,7 @@ html {
   margin: 0 auto;
   width: 458px;
   height: 352px;
+  padding-top: 51px;
 }
 
 .visually-hidden {
@@ -126,11 +129,6 @@ html {
   margin-top: 15px;
   border-radius: 4px;
   box-sizing: border-box;
-}
-
-.main-container {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .catalog-sections {
@@ -241,6 +239,7 @@ html {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
+  margin: 0;
 }
 
 .section-description {
@@ -249,6 +248,16 @@ html {
   font-weight: 400;
   text-align: center;
   color: #333333;
+  margin: 0;
+}
+
+.section-title-advantages {
+  margin-top: 70px;
+}
+
+.section-description-advantages {
+  margin-top: 25px;
+  margin-bottom: 70px;
 }
 
 .section-description-newsletter {
@@ -336,13 +345,15 @@ html {
 }
 
 .hero {
-  background-image: url("../img/background/index-background.jpg");
+  background-image: url("../img/background/mask.svg"),
+    url("../img/background/index-background.jpg");
   width: 1200px;
   height: 485px;
   color: #ffffff;
   background-color: #82b3d3;
-  background-size: cover;
+  background-size: 100% auto, cover;
   background-repeat: no-repeat;
+  background-position: center bottom, center top;
 }
 
 .service {
