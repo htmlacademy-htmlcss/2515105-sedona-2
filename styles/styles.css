@@ -398,7 +398,7 @@ html {
 }
 
 .service-item {
-  max-width: 33%;
+  max-width: 33, 3%;
   background-color: rgba(131, 179, 211, 0.12);
 }
 .service-item-container {
@@ -466,13 +466,18 @@ html {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
+  margin: 0;
+  display: block;
 }
 
 .breadcrumbs {
   display: flex;
   width: 115px;
   justify-content: space-between;
+  align-items: flex-start;
   list-style-type: none;
+  margin: 8px 0 40px 0;
+  padding: 0;
 }
 
 .breadcrumbs-item {
@@ -485,10 +490,31 @@ html {
   line-height: 21px;
 }
 
+.selection {
+  margin: 0;
+  padding: 0;
+}
+
+.selection-form {
+  margin: 0;
+  padding: 0;
+}
+
 .selection-container {
   display: flex;
   width: 1060px;
-  justify-content: space-between;
+}
+
+.infrastructure {
+  margin: 0 70px 0 0;
+}
+
+.hotel-type {
+  margin-right: 140px;
+}
+
+.price {
+  margin-right: 70px;
 }
 
 .selection-list {
@@ -501,11 +527,21 @@ html {
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.selection-item {
+  margin-bottom: 16px;
 }
 
 .selection-text {
   font-size: 18px;
   line-height: 23px;
+}
+
+.selection-type {
+  border: none;
+  padding: 0;
 }
 
 .select-control {
@@ -515,6 +551,21 @@ html {
   line-height: 21px;
   width: 295px;
   margin-left: auto;
+}
+
+.selection-list-buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0 0 auto;
+}
+
+.selection-item-button {
+  margin-bottom: 32px;
+  margin-top: 56px;
+}
+
+.selection-item-button:last-child {
+  margin-top: 0;
 }
 
 .button-apply {
@@ -577,6 +628,7 @@ html {
   padding: 0;
   list-style-type: none;
   display: flex;
+  align-items: center;
 }
 
 .socials-item {
