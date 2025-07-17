@@ -278,6 +278,10 @@ html {
   margin-bottom: 55px;
 }
 
+.newsletter {
+  margin: 96px;
+}
+
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
