@@ -135,7 +135,7 @@ html {
 .catalog-sections {
   background-color: #ffffff;
   color: #000000;
-  margin: 70px;
+  padding: 50px 70px;
 }
 
 .product-card {
@@ -357,7 +357,7 @@ html {
 }
 
 .found-hotels {
-  min-width: 1200px;
+  min-width: 100%;
   background-color: #ffffff;
   padding: 0;
   margin: 0;
@@ -551,6 +551,7 @@ html {
   line-height: 21px;
   width: 295px;
   margin-left: auto;
+  margin-right: 70px;
 }
 
 .selection-list-buttons-container {
