@@ -441,17 +441,19 @@ html {
 }
 
 .service {
-  display: flex;
-  flex-direction: column;
+  padding-top: 64px;
+}
+
+.section-title-services {
+  margin-bottom: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
 .text-service {
-  margin-top: 20px;
-}
-
-.service-slogan-container {
-  width: 510px;
-  margin: 65px 350px;
+  margin-bottom: 64px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
 .service-list {
@@ -463,13 +465,15 @@ html {
 }
 
 .service-item {
-  max-width: 33, 3%;
+  padding: 81px 85px;
+  width: 400px;
+  min-height: 385px;
+  text-align: center;
   background-color: rgba(131, 179, 211, 0.12);
-}
-.service-item-container {
-  display: block;
-  width: 230px;
-  margin: 0 auto;
+  box-sizing: border-box;
+  background-size: 75px 72px;
+  background-position: center 81px;
+  background-repeat: no-repeat;
 }
 
 .service-item:nth-child(2n) {
@@ -478,17 +482,19 @@ html {
 
 .service-item-first {
   background-image: url("../img/advantage-icon-1.svg");
-  background-repeat: no-repeat;
 }
 
 .service-item-second {
   background-image: url("../img/advantage-icon-2.svg");
-  background-repeat: no-repeat;
 }
 
 .service-item-third {
   background-image: url("../img/advantage-icon-3.svg");
-  background-repeat: no-repeat;
+}
+
+.title-service-item {
+  margin-top: 102px;
+  margin-bottom: 30px;
 }
 
 .newsletter-index {
