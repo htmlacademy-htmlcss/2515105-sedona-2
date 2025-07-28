@@ -25,7 +25,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
 }
 
 .visually-hidden {
@@ -1004,10 +1003,7 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   background-color: #999999;
-  padding-top: 35px;
-  padding-right: 70px;
-  padding-bottom: 70px;
-  padding-left: 70px;
+  padding: 35px 70px 70px 70px;
 }
 
 .catalog-form-header {
