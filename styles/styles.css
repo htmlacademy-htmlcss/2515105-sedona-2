@@ -232,7 +232,7 @@ body {
   font-weight: 400;
 }
 
-.navigation-user.navigation-item:last-child {
+.navigation-user .navigation-item:last-child {
   padding-left: 20px;
   padding-bottom: 20px;
   padding-top: 14px;
