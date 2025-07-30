@@ -273,7 +273,7 @@ body {
   background-size: 100% auto, cover;
   background-position: center bottom, center top;
   background-repeat: no-repeat;
-  background-color: #999999;
+  background-color: #6cb3ca;
   padding-top: 51px;
   padding-bottom: 82px;
 }
@@ -467,7 +467,7 @@ body {
   background-image: url("../img/index/form-main-footer.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-color: #999999;
+  background-color: #6cb3ca;
   background-size: cover;
 }
 
@@ -999,7 +999,7 @@ body {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  background-color: #999999;
+  background-color: #6cb3ca;
   padding: 35px 70px 70px 70px;
 }
 
