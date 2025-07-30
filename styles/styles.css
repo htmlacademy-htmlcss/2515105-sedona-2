@@ -548,7 +548,7 @@ body {
 .socials-list {
   display: flex;
   margin-right: auto;
-  padding-top: 5px;
+  padding-top: 0;
   padding-bottom: 5px;
   margin: 0;
   padding: 0;
