@@ -1149,6 +1149,7 @@ body {
   content: url("../img/icons/tick-form.svg");
   position: absolute;
   left: 4px;
+  top: -1px;
 }
 
 .check-input[type="radio"] + .check-mark {
@@ -1157,7 +1158,7 @@ body {
 
 .check-input[type="radio"]:checked + .check-mark::before {
   position: absolute;
-  background-color: #242424;
+  background-color: #3f5e72;
   border-radius: 50%;
   content: "";
   top: 5px;
