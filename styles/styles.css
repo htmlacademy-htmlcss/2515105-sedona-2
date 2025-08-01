@@ -678,15 +678,28 @@ body {
 }
 
 .modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-criteria {
   display: grid;
-  grid-template-columns: 136px 111px 88px 131px 111px;
-  grid-template-rows: min-content min-content min-content min-content min-content 48px min-content;
-  align-items: center;
+  width: 577px;
+  grid-template-columns: 137px 440px;
+  grid-template-rows: 48px 48px;
+}
+
+.modal-form-criteria-people {
+  display: grid;
+  width: 577px;
+  grid-template-columns: 137px 110px 88px 131px 111px;
+  grid-template-rows: 48px 48px;
 }
 
 .arrival-date-label {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  padding: 12px 0 12px 0;
 }
 
 .arrival-date-input-container {
@@ -697,18 +710,19 @@ body {
 
 .departure-date-label {
   grid-column: 1 / 2;
-  grid-row: 3 / 4;
+  grid-row: 1 / 2;
+  padding: 12px 0 12px 0;
 }
 
 .departure-date-input-container {
   position: relative;
-  grid-column: 2 / -1;
-  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
 
 .arrival-date-input-container::after,
 .departure-date-input-container::after {
-  content: url("../img/calendar.svg");
+  content: url("../img/icons/calendar.svg");
   position: absolute;
   top: 14px;
   right: 23px;
@@ -747,12 +761,13 @@ body {
 
 .adults-number-label {
   grid-column: 1 / 2;
-  grid-row: 5 / 6;
+  grid-row: 1 / 2;
+  padding: 12px 0 12px 0;
 }
 
 .adults-number-input-container {
   grid-column: 2 / 3;
-  grid-row: 5 / 6;
+  grid-row: 1 / 2;
   display: flex;
   justify-content: space-around;
   padding: 0 10px;
@@ -763,14 +778,14 @@ body {
 .children-number-label {
   display: flex;
   grid-column: 4 / 5;
-  grid-row: 5 / 6;
+  grid-row: 1 / 2;
   align-items: center;
   margin-right: 10px;
 }
 
 .children-number-input-container {
   grid-column: 5 / 6;
-  grid-row: 5 / 6;
+  grid-row: 1 / 2;
   display: flex;
   justify-content: space-around;
   padding: 0 10px;
@@ -855,8 +870,8 @@ body {
 }
 
 .departure-date-text {
-  grid-column: 2 / -1;
-  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 .modal-form-result-text {
